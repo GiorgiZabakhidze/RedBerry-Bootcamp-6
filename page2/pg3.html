@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href = "pg2.css" rel = "stylesheet">
+        <style>
+            body
+            {
+                position: relative;
+                width: 1920px;
+                height: 1080px;
+
+                background: #F9F9F9;
+            }
+        </style>
+    </head>
+    <body>
+        <b class = "Title">გამოცდილება</b>
+        <p class = "PageNumber"> 2/3</p>
+        <hr id = "Line1">
+        <label id = "RezumeBackground">
+            <!-- <img id = "RezumeBackground" src = "Photos2/Rezume_background.png"> -->
+            <p id = "rezumeName">
+                >სახელი< >გვარი<
+            </p>
+
+            <img id = "rezumeEmail" src = "Photos2/EmailVector.png">
+            <img id = "rezumeNumber" src = "Photos2/PhoneVector.png">
+            <label id = "rezumeEmainAndNumber">
+                <b id = "rezumeEmailVal"> anzasdasasdasdasd@redberry.ge</b>
+                <p id = "rezumeNumberVal">+995 598 00 99 24</p>
+            </label>
+            <label id = "rezumeAboutMe">
+                <p id = "rezumeAboutMeTitle">ჩემს შესახებ</p>
+
+                <p style = "font-family: 'HelveticaNeue';">ეპიკური აღწერა, მაგარია ცხოვრება(არა) ვუჰუუუ... ასდას და დ ასდ ა სდ ასდასდასდ ას დ ას და ს დასდას ას დას დას დ</p>
+
+                <hr class = "rezumeLine1">
+            </label>
+            <img id = "weirdLogo" src = "Photos2/weirdLogo.png">
+        </label>
+        <div id = "Experience1" class = "Experience">
+            <div id = "frameExperience">
+                <label class = "Label">თანამდებობა</label>
+                <label class = "InputLabelLong">
+                    <input class = "InputFieldSmall" placeholder="დეველოპერი, დიზაინერი, ა.შ.">
+                    <img class = "Accepted" src = "Photos2/Accepted.png">
+                    <img class = "Denied" src = "Photos2/Denied.png">
+                </label>
+                <label class = "Hint">მინიმუმ 2 სიმბოლო</label>
+            </div>
+            <div id = "frameBoss">
+                <label class = "Label">დამსაქმებელი</label>
+                <label class = "InputLabelLong">
+                    <input class = "InputFieldSmall" placeholder="დამსაქმებელი">
+                    <img class = "Accepted" src = "Photos2/Accepted.png">
+                    <img class = "Denied" src = "Photos2/Denied.png">
+                </label>
+                <label class = "Hint">მინიმუმ 2 სიმბოლო</label>
+            </div>
+            <div id="frameDateStart">
+                <label class="Label">დაწყების რიცხვი</label>
+                <label class="InputLabelSmall">
+                    <input type="date" class="InputFieldSmall">
+                </label>
+            </div>
+            <div id="frameDateEnd">
+                <label class="Label">დამთავრების რიცხვი</label>
+                <label class="InputLabelSmall">
+                    <input type="date" class="InputFieldSmall">
+                </label>
+            </div>
+            <div id = "frameDescribe">
+                <label class = "Label">დამსაქმებელი</label>
+                <label class = "InputLabelHuge">
+                    <textarea class = "InputFieldTall" placeholder="დამსაქმებელი"></textarea>
+                </label>
+            </div>
+            <hr id = "Line2">
+        </div>
+
+        <img id = "Elipse" src = "Photos2/Ellipse 1.png" onclick="window.location.href='../startingPage/main.html'">
+        <img id = "Vector" src = "Photos2/Vector.png" onclick="window.location.href='../startingPage/main.html'">
+        <button id = "Button4" onclick="createNewHr()"></button>
+        <button id = "buttonBack1" class = "buttonBack" onclick="window.location.href='pg2.html'"></button>
+        <button id = "Next2" class = "Next" onclick="onNextPage()"></button>
+        <script src = "pg3.js"></script>
+    </body>
+</html>
